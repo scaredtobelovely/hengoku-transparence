@@ -1,12 +1,6 @@
 payload:
-  # Unreal Engine games
-  - PROCESS-NAME-REGEX,(?i).*Win64-Shipping.*
-
   # Aimbeast
   - PROCESS-NAME-REGEX,Aimbeast.*
-
-  # Among Us
-  - PROCESS-NAME,Among Us.exe
 
   # Apex Legends
   - PROCESS-NAME,ApexLauncher.exe # Launcher
@@ -42,9 +36,6 @@ payload:
   # FragPunk
   - PROCESS-NAME,FragPunk.exe
 
-  # Dota 2
-  - PROCESS-NAME,dota2.exe
-
   # Deadlock
   - PROCESS-NAME,deadlock.exe
 
@@ -58,32 +49,8 @@ payload:
   - PROCESS-NAME-REGEX,(?i).*Rockstar.* # Rockstar Games Launcher
   - PROCESS-NAME-REGEX,(?i).*SocialClub.* # Rockstar Social Club
 
-  # Team Fortress 2
-  - PROCESS-NAME,tf.exe
-  - PROCESS-NAME,tf_win64.exe
-
-  # Half-Life 2
-  - PROCESS-NAME,hl2.exe
-
-  # Rainbow Six Siege
-  - PROCESS-NAME,RainbowSix.exe
-
   # osu!
   - PROCESS-NAME,osu!.exe
-
-  # Quaver
-  - PROCESS-NAME,Quaver.exe
-
-  # Valorant
-  - PROCESS-NAME,VALORANT-Win64-Shipping.exe
-
-  # Escape from Tarkov
-  - PROCESS-NAME,BsgLauncher.exe # EFT Launcher
-  - PROCESS-NAME,EscapeFromTarkov.exe # Escape From Tarkov
-  - PROCESS-NAME,EscapeFromTarkovArena.exe # Escape From Tarkov - Arena
-
-  # Hunt: Showdown
-  - PROCESS-NAME,HuntGame.exe # Hunt: Showdown
 
   # Античиты (группировка)
   - PROCESS-NAME,start_protected_game.exe # Apex Easy, THE FINALS  Anti-Cheat
@@ -106,32 +73,6 @@ payload:
   - PROCESS-NAME,SGuardUpdate64.exe # Anti-Cheat Expert
   - PROCESS-NAME,ACE-Service64.exe # Anti-Cheat Expert
 
-  # HELLDIVERS 2
-  - PROCESS-NAME,helldivers2.exe
-  - PROCESS-NAME,crs-handler.exe # Crash reports
-
-  # THE FINALS
-  - PROCESS-NAME,Discovery.exe
-  - PROCESS-NAME,Discovery-d.exe
-
-  # Rust
-  - PROCESS-NAME-REGEX,(?i).*RustClient.*
-
-  # Escape from Tarkov
-  - PROCESS-NAME-REGEX,EscapeFromTarkov.*
-
-  # Arena Breakout: Infinite
-  - PROCESS-NAME,UAGame.exe
-
-  # Marvel Rivals
-  - PROCESS-NAME,MarvelRivals_Launcher.exe
-  - PROCESS-NAME,Marvel-Win64-Shipping.exe
-
-  # Overwatch 2
-  - PROCESS-NAME,Overwatch.exe
-  - PROCESS-NAME,Battle.net.exe
-  - PROCESS-NAME,BlizzardBrowser.exe
-
   # HoYoverse
   - PROCESS-NAME,GenshinImpact.exe
   - PROCESS-NAME,ZenlessZoneZero.exe
@@ -149,25 +90,6 @@ payload:
   - PROCESS-NAME,Wuthering Waves.exe
   - PROCESS-NAME,KRWebView.exe # In-game webview
   - PROCESS-NAME,KRSDKExternal.exe
-  # --- Steam ---
-  - PROCESS-NAME,steam.exe
-  - PROCESS-NAME,steamwebhelper.exe
-  - PROCESS-NAME,steamservice.exe
-
-  # --- Valve (Dota 2, CS2) ---
-  - PROCESS-NAME,csgo.exe
-
-  # --- Riot Games (LoL, Valorant) ---
-  - PROCESS-NAME,LeagueClient.exe
-  - PROCESS-NAME,League of Legends.exe
-  - PROCESS-NAME,VALORANT.exe
-  - PROCESS-NAME,RiotClientServices.exe
-
-  # --- Blizzard / Battle.net ---
-  - PROCESS-NAME,Hearthstone.exe
-  - PROCESS-NAME,Diablo IV.exe
-  - PROCESS-NAME,World of Warcraft.exe
-  - PROCESS-NAME,StarCraft II.exe
 
   # --- EA / Origin ---
   - PROCESS-NAME,Origin.exe
@@ -183,8 +105,6 @@ payload:
   # --- Epic Games ---
   - PROCESS-NAME,EpicGamesLauncher.exe
   - PROCESS-NAME,FortniteClient-Win64-Shipping.exe
-
-  # --- Escape from Tarkov ---
 
   # --- Популярные игры ---
   - PROCESS-NAME,PUBG-Win64-Shipping.exe
@@ -207,3 +127,9 @@ payload:
 
   # --- Добавленно вручную ---
   - PROCESS-NAME,Raft.exe
+  - PROCESS-NAME,Paladins.exe
+  - PROCESS-NAME,nightreign.exe
+  - PROCESS-NAME,PioneerGame.exe
+  - PROCESS-NAME,DOAX_VV.exe
+  - PROCESS-NAME,DOAX_VV_Launcher.exe
+  
