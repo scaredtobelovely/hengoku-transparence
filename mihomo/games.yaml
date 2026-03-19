@@ -132,4 +132,6 @@ payload:
   - PROCESS-NAME,PioneerGame.exe
   - PROCESS-NAME,DOAX_VV.exe
   - PROCESS-NAME,DOAX_VV_Launcher.exe
+  - PROCESS-NAME,MarathonLauncher.exe
+  - PROCESS-NAME,Marathon.exe
   
