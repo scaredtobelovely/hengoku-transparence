@@ -134,4 +134,5 @@ payload:
   - PROCESS-NAME,DOAX_VV_Launcher.exe
   - PROCESS-NAME,MarathonLauncher.exe
   - PROCESS-NAME,Marathon.exe
+  - PROCESS-NAME,hunt.exe
   
