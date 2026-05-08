@@ -135,4 +135,5 @@ payload:
   - PROCESS-NAME,MarathonLauncher.exe
   - PROCESS-NAME,Marathon.exe
   - PROCESS-NAME,hunt.exe
+  - PROCESS-NAME,HuntGame.exe
   
